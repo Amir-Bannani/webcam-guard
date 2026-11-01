@@ -1,0 +1,34 @@
+# Environment & Secrets
+.env
+.env.local
+.env.*.local
+
+# Captured media & local photos
+captures/
+
+# Python cache & virtual environment
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+env/
+
+# IDE & OS files
+.vscode/
+.idea/
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Large binary files / setup archives (keep out of git)
+*.exe
+*.zip
+*.pt
+SetupSTM32CubeMX*
+stm32cubef4*
+install_STM32CubeMX.pdf
+
+# Other submodules/projects in directory if not part of this repo
+/hackathon-junior-INSAT-elites-
+/INSAT-elites
